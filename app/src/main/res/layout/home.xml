@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".homeController">
 
+    <SearchView
+        android:layout_width="360dp"
+        android:layout_height="47dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="409dp"
+        android:layout_height="641dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="89dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
